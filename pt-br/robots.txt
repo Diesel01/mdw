@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://diesel01.github.io/pt-br/sitemap.xml

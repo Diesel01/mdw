@@ -23,6 +23,10 @@ jobs:
         bundler-cache: true
     - name: Install deps
       run: |
+        yes | gem update --system --force
+        gem install bundler
+        gem install uri
+        gem install logger
         npm install -g mermaid.cli
     - name: Setup deploy options
       id: setup
